@@ -1,4 +1,4 @@
-const Api_Key='51f7347a1867461e4bd9893e8b188fd6'
+const Api_Key='Your API kEY'
 
 const request={
     fetchTrending:`/trending/all/week?api_key=${Api_Key}&include_video=true`,
