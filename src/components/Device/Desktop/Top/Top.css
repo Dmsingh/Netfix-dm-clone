@@ -1,0 +1,20 @@
+
+  .smallposter{
+    margin-top:5px;
+    width:203px;
+    padding-left: 2px;
+    max-height: 100px;
+     
+     border:2px solid transparent;
+     border-radius: 5%;
+     opacity:0.2;
+  transition: transform 500ms; 
+ 
+
+   }
+   .smallposter:hover{
+   
+     transform: scale(1.);
+     opacity:1;
+   }
+ 

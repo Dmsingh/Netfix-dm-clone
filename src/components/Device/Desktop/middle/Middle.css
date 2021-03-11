@@ -1,0 +1,87 @@
+.middleaddleftcorner{
+    object-fit: contain;   
+    display:flex;
+ 
+    justify-content:space-around;
+    width:34%;
+    padding-right: 4px;
+    margin-left:-3px;
+    
+
+}
+.middleaddlerightcorner{
+    object-fit: contain;
+    display: flex;
+ 
+    padding-left: 4px;
+    justify-content: space-around;
+    width: 34%;
+    
+
+}
+.middleadd{
+    display: flex;
+   justify-content: left;
+ 
+   
+}
+
+.longadds{
+    width: 165px;
+    height:600px;
+    opacity:0.1;
+   
+   
+  }
+  .longadds:hover{
+   
+    opacity:0.6
+  }
+  .LongAdds{
+      display:flex;
+      float:left;
+      padding-left:2px;
+      margin-left: -14px;
+  }
+  .middleaddlemiddle{
+     margin-right: 5px;
+  }
+  .middleadd{
+      margin-top:10px;
+      margin-left: -2px;
+      
+  }
+
+  /* Video Add css file is here */
+
+  .Videoposter{
+    object-fit: contain;   
+    width:660px;
+    max-height: 1400px;
+    opacity:0.1;
+    margin-top: 0px;
+    margin-left: 0px
+    }
+    .Videoposter:hover{
+      opacity:0.6;
+    }
+    .Videoposters{
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        float: left;
+        
+        margin-top: -2px;
+        border: 2px solid #e4080800;
+        background-color: #111;
+    }
+    .Videoposters::-webkit-scrollbar{
+      display: none;
+    }
+    .Videoposter{
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none; 
+    }
+
+  /* Ends here */
+  

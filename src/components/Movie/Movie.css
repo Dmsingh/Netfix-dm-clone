@@ -1,0 +1,329 @@
+.outerRow {
+    float: left;
+    object-fit: contain;
+    width: 100%;
+
+    display: flex;
+    
+}
+.innerRow {
+  object-fit: contain;
+  width: 80%;
+  height: auto;
+  color: grey;
+  border-bottom: 2px solid rgb(179, 41, 41);
+ 
+
+
+}
+.recomendations {
+  width: 20%;
+  object-fit: contain;
+  border-left: 2px solid rgb(77, 74, 74);
+}
+.Player {
+  width: 99%;
+  height: 600px;
+  border-bottom: 2px solid rgb(39, 37, 37);
+  margin-left: 5px;
+}
+.Content {
+  /* 
+    height: auto;
+   font-size-adjust: inherit;
+   font-display:unset;
+  
+    padding-bottom: 10px;
+    justify-content: space-evenly; */
+  width: 99%;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.Buttons {
+  width: 89%;
+  height: 78px;
+
+  margin-top: 10px;
+  margin-left: 86px;
+  color: rgb(114, 109, 109);
+  display: flex;
+  justify-content: space-evenly;
+}
+.movie-content {
+
+
+  width: 97.8%;
+
+  border-top: 2px solid rgb(36, 35, 35);
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  line-height: 2rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+
+ 
+}
+.movie-header {
+  color: "white";
+  font-size: 40px;
+  margin: 10px;
+  margin-left: 25px;
+
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid rgba(170, 169, 169, 0.678);
+}
+mark {
+  background-color: rgb(207, 203, 203);
+}
+.mhead {
+  padding-bottom: 1px;
+}
+
+.mbutton {
+  color: white;
+}
+.mbutton:hover {
+  font-size: 1.5rem;
+}
+.mbutton.MuiButtonBase-root.MuiIconButton-root {
+  flex: 0 0 auto;
+  color: rgb(238, 232, 228);
+
+  height: 65px;
+  overflow: visible;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.8, 0.9, 0.2, 1) 0ms;
+}
+.mbutton.MuiButtonBase-root.MuiIconButton-root:hover {
+  transform: scale(1.09);
+  border: none;
+
+  filter: drop-shadow(8px 4px 2px rgba(177, 1, 1, 0.719));
+  color: rgb(255, 248, 248);
+}
+
+.mimage {
+  padding-left: 5px;
+  padding-top: 5px;
+  width: 98%;
+  
+}
+.mtitle {
+  color: grey;
+  font-size: 30px;
+
+  margin-left: 10px;
+
+  font-weight: 700;
+  padding-bottom: 0.35rem;
+}
+.Player > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+.Playbtn.MuiButtonBase-root.MuiIconButton-root {
+  flex: 0 0 auto;
+  color: rgb(238, 232, 228);
+  font-size: x-large;
+  height: 65px;
+  overflow: visible;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.8, 0.9, 0.2, 1) 0ms;
+}
+.status {
+  /* border: 2px solid green; */
+
+  position: absolute;
+  top: 29%;
+  left: 38%;
+}
+.MuiSvgIcon-root.playround {
+  font-size: 3rem;
+  color: rgb(180, 176, 174);
+}
+.MuiSvgIcon-root.playround:hover {
+  font-size: 3.2rem;
+  color: rgb(180, 176, 174);
+}
+.Player > img:hover {
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+.mimage > img {
+  width: 100%;
+  height: 200px;
+}
+.mposter {
+  
+    border-bottom: 2px solid rgb(58, 57, 57);
+    width: 96%;
+  
+    margin-left: 4px;
+  }
+/* .movie-content::-webkit-scrollbar{
+    display: none;
+} */
+.movie-content{
+    -ms-overflow-style: none;  /* IE and Edge */
+    /* scrollbar-width: none;  */
+}
+
+
+/* Css for MobileView */
+
+.MobouterRow{
+
+  object-fit: contain;
+  width: 100%;
+
+  display: flex;
+}
+.MobinnerRow{
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  color: grey;
+
+}
+.MobPlayer{
+  width: 99%;
+  height: 230px;
+  border-bottom: 2px solid rgb(39, 37, 37);
+  margin-left: px;
+}
+.MobContent{
+  width: 99%;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.MobButtons{
+  width: 89%;
+  height: 60px;
+  font-size: medium;
+  margin-top: 3px;
+  margin-left: 16px;
+  color: rgb(114, 109, 109);
+  display: flex;
+  justify-content: space-evenly;
+}
+.Mobmbutton{
+  color: white;
+}
+.Mobmbutton:hover {
+  font-size: 1.5rem;
+}
+.Mobmovie-header{
+  color: "white";
+ 
+
+  margin-left: 5px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(170, 169, 169, 0.678);
+}
+.MobPlayer > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+
+.Mobmbutton.MuiButtonBase-root.MuiIconButton-root {
+  flex: 0 0 auto;
+  color: rgb(238, 232, 228);
+
+  height: 65px;
+  overflow: visible;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.8, 0.9, 0.2, 1) 0ms;
+}
+.Mobmbutton.MuiButtonBase-root.MuiIconButton-root:hover {
+  transform: scale(1.09);
+  border: none;
+
+  filter: drop-shadow(8px 4px 2px rgba(177, 1, 1, 0.719));
+  color: rgb(255, 248, 248);
+}
+.Mobmbutton>.MuiIconButton-label{
+  font-size: 20px;
+}
+.tab-heading{
+font-size: 26px;
+justify-self: center;
+}
+.Mobmovie-content {
+  width: 100%;
+  border-top: 2px solid rgb(36, 35, 35);
+  margin-top: 2px;
+
+  padding-bottom: 10px;
+
+  line-height: 2rem;
+  padding-top: 1rem;
+
+}
+
+.MuiTypography-body1.tab-heading{
+  font-size: 26px;
+ 
+  font-weight:600 ;
+  color:rgb(245, 238, 238)
+}
+.MuiIconButton-label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+  color:rgb(245, 238, 238)
+  
+}
+.Mobdetails>.MuiTypography-body1{
+color:rgba(255, 255, 255, 0.952)
+}
+.MuiAccordionSummary-root.Mobsummary{
+  background-color: #111;
+}
+.Mobdetails{
+  background-color: rgb(20, 16, 16);
+}
+.Mobrecomendations{
+  width: 100%;
+}
+.mob>img{
+  height:170px;
+  border-radius: 2%;
+}
+
+
+.Mobmtitle {
+  color: grey;
+  font-size: 25px;
+
+  margin-left: 10px;
+
+  font-weight: 600;
+  padding-bottom: 0.35rem;
+}
+.Mobmposter {
+  
+  border-bottom: 2px solid rgb(58, 57, 57);
+  width: 96%;
+   border-radius: 10%;
+  margin: 5px;
+  margin-left:4px;
+}
+.Mobstatus{
+  position: absolute;
+  top: 15%;
+  left: 38%;
+}

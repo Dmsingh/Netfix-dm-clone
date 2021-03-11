@@ -1,0 +1,162 @@
+.mobile {
+    position: fixed;
+    width: 350px;
+    height: 330px;
+    top: 100px;
+    left: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   
+  }
+  .mobile:hover {
+    box-shadow:   25px 30px 50px 10px rgba(97, 96, 96, 0.747);;
+    
+  }
+  
+
+  
+  .mright-arrow {
+    position: absolute;
+    top: 70%;
+    right: 25px;
+    font-size: 2.0rem;
+    color:white;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .mleft-arrow {
+    position: absolute;
+    top: 70%;
+    left: 25px;
+    font-size: 1.5rem;
+    color:white;
+
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+    
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.8);
+    
+  }
+  .MuiSvgIcon-root.mleft-arrow{
+      font-size: 3rem;
+      color:white
+   
+  }
+  .MuiSvgIcon-root.mleft-arrow:hover{
+      font-size: 4rem;
+  
+   
+  }
+  .MuiSvgIcon-root.mright-arrow{
+    font-size: 3rem;
+    color:white
+ 
+}
+.MuiSvgIcon-root.mright-arrow:hover{
+    font-size: 4rem;
+
+ 
+}
+.boolyWood{
+  width:180px;
+  margin-top:-57px;
+}
+.boolyWood:hover{
+  width:200px;
+  filter: drop-shadow(14px 14px 3px rgba(207, 160, 3, 0.555)); 
+  
+  height:auto 
+}
+
+.hoolyWood{
+    width:150px;
+  margin-top:-57px;
+}
+.hoolyWood:hover{
+  width:177px;
+  filter:drop-shadow(9px 2px 3px rgba(191, 233, 4, 0.815)); 
+  
+  height:auto 
+}
+
+
+.englishme{
+    width:150px;
+    margin-top:-90px;
+    
+}
+
+.englishme:hover{
+  width:177px;
+  filter: drop-shadow(8px 4px 6px rgba(245, 11, 11, 0.712)); 
+  width:170px; 
+  height:auto 
+  
+  
+}
+
+
+.indian{
+    width:150px;
+    margin-top:-50px;
+}
+.indian:hover{
+  width:177px;
+  filter: drop-shadow(14px 14px 2px rgba(1, 27, 6, 0.76)); 
+  width:170px; 
+  height:auto ;
+}
+
+
+.toolyWood{
+    
+    width:170px;
+    margin-top:-60px;
+}
+.toolyWood:hover{
+    
+  width:200px;
+  filter: drop-shadow(5px 3px 2px rgba(5, 177, 245, 0.87)); 
+
+  height:auto ;
+
+}
+
+.lindian{
+    margin-left: 135px;
+    top: 24px;
+    position: fixed;
+}
+.imgbutton{
+  position: fixed;
+    top: 310px;
+    width: 180px;
+    left: 95px;
+}
+.imgbutton:hover{
+  position: fixed;
+    top: 312px;
+    width: 200px;
+    left: 80px;
+  filter: drop-shadow(4px 14px 16px rgba(250, 246, 246, 0.514)); 
+
+
+}

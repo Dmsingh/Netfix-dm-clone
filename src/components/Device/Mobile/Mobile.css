@@ -1,0 +1,20 @@
+.mobileposter{
+    margin-top:-5px;
+    max-width:200px;
+    width: 174px;
+    max-height: 100px;
+     
+     border:2px solid transparent;
+     border-radius: 5%;
+     opacity:0.3;
+  transition: transform 500ms; 
+ 
+   margin: left -20px;
+   
+   }
+   .mobileposter:hover{
+   
+     transform: scale(1.);
+     opacity:1;
+   }
+   
